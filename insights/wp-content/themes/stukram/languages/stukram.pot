@@ -1,0 +1,2244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: comments.php:37 search.php:100 includes/stukram-options.php:150
+#: includes/stukram-options.php:152 includes/stukram-options.php:156
+#: includes/stukram-options.php:205 includes/stukram-options.php:223
+#: includes/stukram-options.php:245 includes/stukram-options.php:260
+#: includes/stukram-options.php:285 includes/stukram-options.php:286
+#: includes/stukram-options.php:310 includes/stukram-options.php:333
+#: includes/stukram-options.php:348 includes/stukram-options.php:357
+#: includes/stukram-options.php:365 includes/stukram-options.php:389
+#: includes/stukram-options.php:406 includes/stukram-options.php:428
+#: includes/stukram-options.php:441 includes/stukram-options.php:454
+#: includes/stukram-options.php:469 includes/stukram-options.php:476
+#: includes/stukram-options.php:493 includes/stukram-options.php:511
+#: includes/stukram-options.php:520 includes/stukram-options.php:530
+#: includes/stukram-options.php:548 includes/stukram-options.php:556
+#: includes/stukram-options.php:564 includes/stukram-options.php:572
+#: includes/stukram-options.php:579 includes/stukram-options.php:593
+#: includes/stukram-options.php:602 includes/stukram-options.php:612
+#: includes/stukram-options.php:645 includes/stukram-options.php:704
+#: includes/stukram-options.php:737 includes/stukram-options.php:762
+#: includes/stukram-options.php:778 includes/stukram-options.php:1131
+#: includes/stukram-options.php:1139 includes/stukram-options.php:1850
+#: includes/stukram-options.php:2107 includes/stukram-options.php:2223
+#: includes/stukram-options.php:2321 includes/stukram-options.php:2401
+#: includes/stukram-options.php:2463 includes/stukram-options.php:2526
+#: includes/stukram-options.php:2710 includes/stukram-options.php:2733
+#: includes/stukram-options.php:2751 includes/stukram-options.php:2898
+#: includes/stukram-options.php:2912 includes/stukram-options.php:2924
+#: includes/stukram-options.php:2936 includes/stukram-options.php:2948
+#: includes/stukram-options.php:2962 includes/stukram-options.php:2969
+#: includes/stukram-options.php:2985 includes/stukram-options.php:2993
+#: includes/stukram-options.php:3006 includes/stukram-options.php:3020
+#: includes/stukram-options.php:3029 includes/stukram-options.php:3052
+#: includes/stukram-options.php:3059 includes/stukram-options.php:3089
+#: includes/stukram-options.php:3097 includes/stukram-options.php:3113
+#: includes/stukram-options.php:3120 includes/stukram-options.php:3134
+#: includes/stukram-options.php:3152 includes/stukram-options.php:3188
+#: includes/stukram-options.php:3195 includes/stukram-options.php:3250
+#: template-parts/blog/classic-col-2.php:73
+#: template-parts/blog/classic-col-3.php:60
+#: template-parts/blog/classic-left.php:82
+#: template-parts/blog/classic-no-sidebar.php:65
+#: template-parts/blog/classic-right.php:71
+#: template-parts/index/blog-left.php:66
+#: template-parts/index/blog-right.php:56 template-parts/index/full.php:49
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-23 14:54+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:8 404.php:38
+msgid "404"
+msgstr ""
+
+#: 404.php:17 404.php:47
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:20 404.php:50
+msgid ""
+"The page you were looking for does not exist. You may have mistyped the "
+"address or the page may have been moved."
+msgstr ""
+
+#: 404.php:23 404.php:53
+msgid "Take me home"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s "
+msgid_plural "%1$s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68 includes/stukram-options.php:898
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:81
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:82
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:85
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:86
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:87
+msgid "Leave a Reply"
+msgstr ""
+
+#: functions.php:19
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:20
+msgid "Footer Menu (Sub item not allowed.)"
+msgstr ""
+
+#: functions.php:43
+msgid "Small"
+msgstr ""
+
+#: functions.php:49
+msgid "Normal"
+msgstr ""
+
+#: functions.php:55
+msgid "Large"
+msgstr ""
+
+#: functions.php:61
+msgid "Huge"
+msgstr ""
+
+#: functions.php:71
+msgid "Light Grey"
+msgstr ""
+
+#: functions.php:76
+msgid "Black"
+msgstr ""
+
+#: functions.php:145
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:162
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:174
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:176
+msgid "This area is for blog widgets."
+msgstr ""
+
+#: functions.php:187
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:189
+msgid "This area is for page widgets."
+msgstr ""
+
+#: functions.php:219
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:265
+msgid "Send Message"
+msgstr ""
+
+#: search.php:16 taxonomy-portfolio_category.php:16
+#: template-parts/header/default.php:46 template-parts/header/default.php:79
+#: template-parts/header/post_masthead.php:14
+msgid "Home"
+msgstr ""
+
+#: search.php:23 search.php:34
+msgid "Search Results For"
+msgstr ""
+
+#: search.php:32 search.php:34
+#, php-format
+msgid " \"%s\""
+msgstr ""
+
+#: search.php:34 template-parts/header/post_masthead.php:53
+#: template-parts/header/post_masthead.php:59
+#: template-parts/header/post_masthead.php:65
+msgid ": "
+msgstr ""
+
+#: search.php:123 includes/stukram-options.php:923
+#: template-parts/blog/classic-col-2.php:96
+#: template-parts/blog/classic-col-3.php:83
+#: template-parts/blog/classic-left.php:105
+#: template-parts/blog/classic-no-sidebar.php:88
+#: template-parts/blog/classic-right.php:94
+#: template-parts/index/blog-left.php:89
+#: template-parts/index/blog-right.php:79 template-parts/index/full.php:72
+msgid "Read More"
+msgstr ""
+
+#: search.php:144 includes/stukram-options.php:953
+msgid "No Results Found"
+msgstr ""
+
+#: single-portfolio.php:92
+msgid "PREV"
+msgstr ""
+
+#: single-portfolio.php:111 single-portfolio.php:176
+#: includes/stukram-options.php:969
+msgid "Back To Portfolio"
+msgstr ""
+
+#: single-portfolio.php:128 single-portfolio.php:193
+#: includes/stukram-options.php:975
+msgid "Back To Home"
+msgstr ""
+
+#: single-portfolio.php:161
+msgid "NEXT"
+msgstr ""
+
+#: extendvc/extend-vc.php:359 extendvc/extend-vc.php:368
+#: extendvc/extend-vc.php:377 extendvc/extend-vc.php:386
+msgid "In format: 10px"
+msgstr ""
+
+#: extendvc/extend-vc.php:928 extendvc/extend-vc.php:946
+#: extendvc/extend-vc.php:964 extendvc/extend-vc.php:1160
+#: extendvc/extend-vc.php:1178 extendvc/extend-vc.php:1368
+#: extendvc/extend-vc.php:1386 extendvc/extend-vc.php:1698
+#: extendvc/extend-vc.php:1857 extendvc/extend-vc.php:2118
+#: extendvc/extend-vc.php:2960 extendvc/extend-vc.php:2978
+#: extendvc/extend-vc.php:3030 extendvc/extend-vc.php:3228
+#: extendvc/extend-vc.php:3246 extendvc/extend-vc.php:3339
+#: extendvc/extend-vc.php:3357 extendvc/extend-vc.php:3481
+#: extendvc/extend-vc.php:3583 extendvc/extend-vc.php:3601
+#: extendvc/extend-vc.php:3619 extendvc/extend-vc.php:3783
+#: extendvc/extend-vc.php:3801 extendvc/extend-vc.php:3845
+#: extendvc/extend-vc.php:3909 extendvc/extend-vc.php:4116
+#: extendvc/extend-vc.php:4134 extendvc/extend-vc.php:4152
+#: extendvc/extend-vc.php:4218 extendvc/extend-vc.php:4271
+#: extendvc/extend-vc.php:4460 extendvc/extend-vc.php:4662
+#: extendvc/extend-vc.php:4898 extendvc/extend-vc.php:4916
+#: extendvc/extend-vc.php:4993
+msgid "Please insert margin in format: 0px 0px 0px 0px"
+msgstr ""
+
+#: extendvc/extend-vc.php:937 extendvc/extend-vc.php:955
+#: extendvc/extend-vc.php:973 extendvc/extend-vc.php:1169
+#: extendvc/extend-vc.php:1187 extendvc/extend-vc.php:1377
+#: extendvc/extend-vc.php:1395 extendvc/extend-vc.php:1708
+#: extendvc/extend-vc.php:1866 extendvc/extend-vc.php:2127
+#: extendvc/extend-vc.php:2969 extendvc/extend-vc.php:2987
+#: extendvc/extend-vc.php:3039 extendvc/extend-vc.php:3237
+#: extendvc/extend-vc.php:3255 extendvc/extend-vc.php:3348
+#: extendvc/extend-vc.php:3366 extendvc/extend-vc.php:3490
+#: extendvc/extend-vc.php:3592 extendvc/extend-vc.php:3610
+#: extendvc/extend-vc.php:3628 extendvc/extend-vc.php:3792
+#: extendvc/extend-vc.php:3810 extendvc/extend-vc.php:3854
+#: extendvc/extend-vc.php:3918 extendvc/extend-vc.php:4125
+#: extendvc/extend-vc.php:4143 extendvc/extend-vc.php:4161
+#: extendvc/extend-vc.php:4227 extendvc/extend-vc.php:4280
+#: extendvc/extend-vc.php:4469 extendvc/extend-vc.php:4671
+#: extendvc/extend-vc.php:4907 extendvc/extend-vc.php:4925
+#: extendvc/extend-vc.php:5002
+msgid "Please insert padding in format: 0px 0px 0px 0px"
+msgstr ""
+
+#: extendvc/extend-vc.php:1968
+msgid ""
+"Please insert video link url in format: https://www.youtube.com/watch?"
+"v=ANYfx4-jyqY"
+msgstr ""
+
+#: extendvc/extend-vc.php:2169 extendvc/extend-vc.php:2181
+msgid "Text translation option"
+msgstr ""
+
+#: extendvc/extend-vc.php:2211 extendvc/extend-vc.php:2557
+msgid "(Optional) Insert category name in format: Graphic"
+msgstr ""
+
+#: extendvc/extend-vc.php:2235
+msgid "Number of categories to show in the filter option."
+msgstr ""
+
+#: extendvc/extend-vc.php:2246
+msgid ""
+"Exclude category from the filter by the category ID e.x: 6 <br>For multiple "
+"category ID e.x: 6 7<br> If you want to use this option, then please write "
+"that category name  in the Include Category option, you want to show post "
+"from that category."
+msgstr ""
+
+#: extendvc/extend-vc.php:2258
+msgid "Insert number of post show in format: 8"
+msgstr ""
+
+#: extendvc/extend-vc.php:2265 extendvc/extend-vc.php:2501
+msgid "Post Offset"
+msgstr ""
+
+#: extendvc/extend-vc.php:2269 extendvc/extend-vc.php:2505
+msgid "(Optional)Use this field if you need."
+msgstr ""
+
+#: extendvc/extend-vc.php:2281
+msgid "Change/Replace View All Text Here."
+msgstr ""
+
+#: extendvc/extend-vc.php:2365
+msgid "Change/Replace View Project Text Here."
+msgstr ""
+
+#: extendvc/extend-vc.php:2547
+msgid "Please insert number of member show in format: 3"
+msgstr ""
+
+#: extendvc/extend-vc.php:2567
+msgid "Change/Replace read more text here."
+msgstr ""
+
+#: extendvc/extend-vc.php:3472
+msgid "Ex: DRAG"
+msgstr ""
+
+#: extendvc/extend-vc.php:4240 extendvc/extend-vc.php:4295
+msgid "By Stukram"
+msgstr ""
+
+#: extendvc/extend-vc.php:4960
+msgid "Please insert contact form id number in format: 5"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:393
+#: framework/class-tgm-plugin-activation.php:920
+#: framework/class-tgm-plugin-activation.php:2626
+#: framework/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:394
+#: framework/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:395
+#: framework/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1027
+#: framework/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1214
+#: framework/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2647
+#: includes/ini/stukram-base.php:89
+msgid "Status"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3602
+#: framework/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3602
+#: framework/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/functions.php:123
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/functions.php:131
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: includes/functions.php:138
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/functions.php:145
+msgid "Stukram Plugin"
+msgstr ""
+
+#: includes/functions.php:151
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/functions.php:157
+msgid "Meta Box"
+msgstr ""
+
+#: includes/functions.php:163 includes/loader.php:65 includes/loader.php:66
+msgid "Stukram Demo Importer"
+msgstr ""
+
+#: includes/loader.php:17 includes/loader.php:34
+msgid "Be patient, it can take a couple of minutes."
+msgstr ""
+
+#: includes/stukram-options.php:45 includes/stukram-options.php:46
+msgid "Stukram Options"
+msgstr ""
+
+#: includes/stukram-options.php:172
+msgid "Support"
+msgstr ""
+
+#: includes/stukram-options.php:173 includes/stukram-options.php:180
+msgid "Send us a mail by using our item support form."
+msgstr ""
+
+#: includes/stukram-options.php:204
+msgid "General Settings"
+msgstr ""
+
+#: includes/stukram-options.php:215
+msgid "Ajax Page Load Options."
+msgstr ""
+
+#: includes/stukram-options.php:216
+msgid "Enable/ Disable site ajax loading."
+msgstr ""
+
+#: includes/stukram-options.php:222
+msgid "Page Ajax Load"
+msgstr ""
+
+#: includes/stukram-options.php:226 includes/stukram-options.php:249
+#: includes/stukram-options.php:314 includes/stukram-options.php:480
+#: includes/stukram-options.php:789 includes/stukram-options.php:801
+#: includes/stukram-options.php:2952 includes/stukram-options.php:2973
+#: includes/stukram-options.php:2997 includes/stukram-options.php:3063
+#: includes/stukram-options.php:3199 includes/stukram-options.php:3254
+msgid "Enable"
+msgstr ""
+
+#: includes/stukram-options.php:227 includes/stukram-options.php:248
+#: includes/stukram-options.php:313 includes/stukram-options.php:479
+#: includes/stukram-options.php:790 includes/stukram-options.php:802
+#: includes/stukram-options.php:2951 includes/stukram-options.php:2972
+#: includes/stukram-options.php:2996 includes/stukram-options.php:3062
+#: includes/stukram-options.php:3198 includes/stukram-options.php:3253
+msgid "Disable"
+msgstr ""
+
+#: includes/stukram-options.php:237
+msgid "Preloader Options."
+msgstr ""
+
+#: includes/stukram-options.php:238
+msgid "Enable/ Disable site preloader."
+msgstr ""
+
+#: includes/stukram-options.php:244
+msgid "Preloader"
+msgstr ""
+
+#: includes/stukram-options.php:259
+msgid "Upload  Preloader Image"
+msgstr ""
+
+#: includes/stukram-options.php:271
+msgid "Preloader Size"
+msgstr ""
+
+#: includes/stukram-options.php:272 includes/stukram-options.php:375
+#: includes/stukram-options.php:3038
+msgid "."
+msgstr ""
+
+#: includes/stukram-options.php:273 includes/stukram-options.php:376
+#: includes/stukram-options.php:3039
+msgid "Optional"
+msgstr ""
+
+#: includes/stukram-options.php:284
+msgid "Preloader Background"
+msgstr ""
+
+#: includes/stukram-options.php:301
+msgid "Custom Cursor Option"
+msgstr ""
+
+#: includes/stukram-options.php:302
+msgid "Enable/Disable custom cursor."
+msgstr ""
+
+#: includes/stukram-options.php:309
+msgid "Custom Cursor"
+msgstr ""
+
+#: includes/stukram-options.php:325
+msgid "Logo Options"
+msgstr ""
+
+#: includes/stukram-options.php:326
+msgid "Logo options of your site header."
+msgstr ""
+
+#: includes/stukram-options.php:332 includes/stukram-options.php:3005
+msgid "Select Logo Format"
+msgstr ""
+
+#: includes/stukram-options.php:336 includes/stukram-options.php:3009
+msgid "Text Logo"
+msgstr ""
+
+#: includes/stukram-options.php:337 includes/stukram-options.php:3010
+msgid "Image Logo"
+msgstr ""
+
+#: includes/stukram-options.php:347
+msgid "Logo Options."
+msgstr ""
+
+#: includes/stukram-options.php:356
+msgid "Upload Dark Logo"
+msgstr ""
+
+#: includes/stukram-options.php:364
+msgid "Upload Light Logo"
+msgstr ""
+
+#: includes/stukram-options.php:374 includes/stukram-options.php:3037
+msgid "Logo Size"
+msgstr ""
+
+#: includes/stukram-options.php:388 includes/stukram-options.php:3019
+msgid "Logo Text "
+msgstr ""
+
+#: includes/stukram-options.php:398
+msgid "Theme Color Scheme Options."
+msgstr ""
+
+#: includes/stukram-options.php:399
+msgid "Select Theme Color Scheme Style."
+msgstr ""
+
+#: includes/stukram-options.php:405
+msgid "Theme Color Scheme Style"
+msgstr ""
+
+#: includes/stukram-options.php:409
+msgid "Light Version"
+msgstr ""
+
+#: includes/stukram-options.php:410
+msgid "Dark Version"
+msgstr ""
+
+#: includes/stukram-options.php:420
+msgid "Nav Menu Options."
+msgstr ""
+
+#: includes/stukram-options.php:421
+msgid "Select Nav Menu Style."
+msgstr ""
+
+#: includes/stukram-options.php:427
+msgid "Nav Menu Style"
+msgstr ""
+
+#: includes/stukram-options.php:431
+msgid "Classic"
+msgstr ""
+
+#: includes/stukram-options.php:432
+msgid "Click"
+msgstr ""
+
+#: includes/stukram-options.php:440
+msgid "Header Color Style"
+msgstr ""
+
+#: includes/stukram-options.php:444 includes/stukram-options.php:457
+#: includes/stukram-options.php:648 includes/stukram-options.php:2928
+#: includes/stukram-options.php:2939
+msgid "Light"
+msgstr ""
+
+#: includes/stukram-options.php:445 includes/stukram-options.php:458
+#: includes/stukram-options.php:649 includes/stukram-options.php:2927
+#: includes/stukram-options.php:2940
+msgid "Dark"
+msgstr ""
+
+#: includes/stukram-options.php:453
+msgid "Logo & Menu Button Color Style"
+msgstr ""
+
+#: includes/stukram-options.php:468
+msgid "Nav Menu Info Options"
+msgstr ""
+
+#: includes/stukram-options.php:475
+msgid "Menu Info"
+msgstr ""
+
+#: includes/stukram-options.php:492
+msgid "Address Info"
+msgstr ""
+
+#: includes/stukram-options.php:501 includes/stukram-options.php:538
+#: includes/stukram-options.php:620 includes/stukram-options.php:3072
+msgid "Title"
+msgstr ""
+
+#: includes/stukram-options.php:502
+msgid "Ex:  Address "
+msgstr ""
+
+#: includes/stukram-options.php:510 includes/stukram-options.php:3088
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/stukram-options.php:519 includes/stukram-options.php:3104
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/stukram-options.php:529
+msgid "Contact Info"
+msgstr ""
+
+#: includes/stukram-options.php:539
+msgid "Ex:  Contact Us "
+msgstr ""
+
+#: includes/stukram-options.php:547 includes/stukram-options.php:3133
+msgid "Email Address 1"
+msgstr ""
+
+#: includes/stukram-options.php:555 includes/stukram-options.php:3096
+msgid "Address Line 1 Link URL"
+msgstr ""
+
+#: includes/stukram-options.php:563 includes/stukram-options.php:3142
+msgid "Email Address 2"
+msgstr ""
+
+#: includes/stukram-options.php:571 includes/stukram-options.php:3112
+msgid "Address Line 2 Link URL"
+msgstr ""
+
+#: includes/stukram-options.php:578 includes/stukram-options.php:3119
+msgid "Address Link URL Open In"
+msgstr ""
+
+#: includes/stukram-options.php:582 includes/stukram-options.php:3123
+msgid "Same Window"
+msgstr ""
+
+#: includes/stukram-options.php:583 includes/stukram-options.php:3124
+msgid "New Window"
+msgstr ""
+
+#: includes/stukram-options.php:592 includes/stukram-options.php:3151
+msgid "Phone Number 1"
+msgstr ""
+
+#: includes/stukram-options.php:601 includes/stukram-options.php:3160
+msgid "Phone Number 2"
+msgstr ""
+
+#: includes/stukram-options.php:611
+msgid "Social Info"
+msgstr ""
+
+#: includes/stukram-options.php:621
+msgid "Ex:  Socials "
+msgstr ""
+
+#: includes/stukram-options.php:631
+msgid "Page Settings"
+msgstr ""
+
+#: includes/stukram-options.php:638
+msgid "404 Error Page Option"
+msgstr ""
+
+#: includes/stukram-options.php:644
+msgid "404 Color Style"
+msgstr ""
+
+#: includes/stukram-options.php:660
+msgid "404 Page Translate Options"
+msgstr ""
+
+#: includes/stukram-options.php:661
+msgid "404 Page Text Translate Options"
+msgstr ""
+
+#: includes/stukram-options.php:669
+msgid "Text 1"
+msgstr ""
+
+#: includes/stukram-options.php:670
+msgid "Translate Options. Ex:  404 "
+msgstr ""
+
+#: includes/stukram-options.php:678
+msgid "Text 2"
+msgstr ""
+
+#: includes/stukram-options.php:679
+msgid "Translate Options. Ex:  Page not found. "
+msgstr ""
+
+#: includes/stukram-options.php:686
+msgid "Text 3"
+msgstr ""
+
+#: includes/stukram-options.php:687
+msgid "Translate Options. Ex:  The page you were looking for does not exist. "
+msgstr ""
+
+#: includes/stukram-options.php:694
+msgid "Text 4"
+msgstr ""
+
+#: includes/stukram-options.php:695
+msgid "Translate Options. Ex:  Take me home"
+msgstr ""
+
+#: includes/stukram-options.php:703
+msgid "Portfolio Post Page Options"
+msgstr ""
+
+#: includes/stukram-options.php:711
+msgid "Portfolio Page URL"
+msgstr ""
+
+#: includes/stukram-options.php:712
+msgid "Insert portfolio page url link here."
+msgstr ""
+
+#: includes/stukram-options.php:723
+msgid "Blog Settings"
+msgstr ""
+
+#: includes/stukram-options.php:730
+msgid "Blog Style"
+msgstr ""
+
+#: includes/stukram-options.php:731
+msgid "Select blog page style of your site. Page Template also available."
+msgstr ""
+
+#: includes/stukram-options.php:736
+msgid "Select Blog Layout"
+msgstr ""
+
+#: includes/stukram-options.php:740 includes/stukram-options.php:765
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/stukram-options.php:741 includes/stukram-options.php:766
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/stukram-options.php:742 includes/stukram-options.php:767
+msgid "Full Width"
+msgstr ""
+
+#: includes/stukram-options.php:754
+msgid "Blog Details Page Style"
+msgstr ""
+
+#: includes/stukram-options.php:755
+msgid ""
+"Select blog details page style of your site. You can select details style "
+"from post also."
+msgstr ""
+
+#: includes/stukram-options.php:761
+msgid "Select Blog Details Layout"
+msgstr ""
+
+#: includes/stukram-options.php:777
+msgid "Upload Index Header Image"
+msgstr ""
+
+#: includes/stukram-options.php:785
+msgid "Blog Header Section"
+msgstr ""
+
+#: includes/stukram-options.php:786
+msgid ""
+"Enable/Disable header section for blog single, archives, category, tag & "
+"search page."
+msgstr ""
+
+#: includes/stukram-options.php:797
+msgid "Blog Header Breadcumbs"
+msgstr ""
+
+#: includes/stukram-options.php:798
+msgid ""
+"Enable/Disable header breadcumbs for blog single, archives, category, tag & "
+"search page."
+msgstr ""
+
+#: includes/stukram-options.php:809
+msgid "Breadcumbs Home Text"
+msgstr ""
+
+#: includes/stukram-options.php:810
+msgid "Insert blog page header home text here."
+msgstr ""
+
+#: includes/stukram-options.php:817
+msgid "Blog Title Text"
+msgstr ""
+
+#: includes/stukram-options.php:818
+msgid "Insert blog page header title text here."
+msgstr ""
+
+#: includes/stukram-options.php:827
+msgid "Translation Options"
+msgstr ""
+
+#: includes/stukram-options.php:828
+msgid "Default Text Translate Here."
+msgstr ""
+
+#: includes/stukram-options.php:833
+msgid "Archive Page Title"
+msgstr ""
+
+#: includes/stukram-options.php:834
+msgid "Insert header title for blog archive page here. Ex: Archive : "
+msgstr ""
+
+#: includes/stukram-options.php:840
+msgid "Category Page Title"
+msgstr ""
+
+#: includes/stukram-options.php:841
+msgid "Insert header title for blog category page here. Ex: Category : "
+msgstr ""
+
+#: includes/stukram-options.php:848
+msgid "Tag Page Title"
+msgstr ""
+
+#: includes/stukram-options.php:849
+msgid "Insert header title for blog tag page here. Ex: Tag : "
+msgstr ""
+
+#: includes/stukram-options.php:856
+msgid "Search Page Title"
+msgstr ""
+
+#: includes/stukram-options.php:857
+msgid ""
+"Insert header title for blog search page title here. Ex: Search Results for :"
+msgstr ""
+
+#: includes/stukram-options.php:863
+msgid "Search Page No Post Title"
+msgstr ""
+
+#: includes/stukram-options.php:864
+msgid ""
+"Insert header title for blog search page no post title here. Ex: No Post "
+"Found"
+msgstr ""
+
+#: includes/stukram-options.php:870
+msgid "Search Page Search Again Title"
+msgstr ""
+
+#: includes/stukram-options.php:871
+msgid ""
+"Insert header title for blog search page no post title here. Ex: Please "
+"Search Again."
+msgstr ""
+
+#: includes/stukram-options.php:877
+msgid "One Comment on"
+msgstr ""
+
+#: includes/stukram-options.php:878 includes/stukram-options.php:885
+#: includes/stukram-options.php:892 includes/stukram-options.php:899
+msgid "Post Comment Section."
+msgstr ""
+
+#: includes/stukram-options.php:884
+msgid "Comment on"
+msgstr ""
+
+#: includes/stukram-options.php:891
+msgid "Comments on"
+msgstr ""
+
+#: includes/stukram-options.php:908
+msgid "Translate Options"
+msgstr ""
+
+#: includes/stukram-options.php:916
+msgid "Blog Page"
+msgstr ""
+
+#: includes/stukram-options.php:917
+msgid "Blog page text translate options."
+msgstr ""
+
+#: includes/stukram-options.php:924
+msgid "Change/Repalce blog post \"Read More\" text here."
+msgstr ""
+
+#: includes/stukram-options.php:931
+msgid "Search.."
+msgstr ""
+
+#: includes/stukram-options.php:932
+msgid "Search Widget."
+msgstr ""
+
+#: includes/stukram-options.php:937
+msgid "By"
+msgstr ""
+
+#: includes/stukram-options.php:938 includes/stukram-options.php:945
+#: includes/stukram-options.php:2300
+msgid "Post Meta"
+msgstr ""
+
+#: includes/stukram-options.php:944
+msgid "In"
+msgstr ""
+
+#: includes/stukram-options.php:954
+msgid "Search Page."
+msgstr ""
+
+#: includes/stukram-options.php:962
+msgid "Post Pagination"
+msgstr ""
+
+#: includes/stukram-options.php:963
+msgid "Post pagination text translate options."
+msgstr ""
+
+#: includes/stukram-options.php:970 includes/stukram-options.php:976
+#: includes/stukram-options.php:982 includes/stukram-options.php:989
+msgid "Portfolio Pagination."
+msgstr ""
+
+#: includes/stukram-options.php:981
+msgid "Prev"
+msgstr ""
+
+#: includes/stukram-options.php:988
+msgid "Next"
+msgstr ""
+
+#: includes/stukram-options.php:995
+msgid "Prev Article"
+msgstr ""
+
+#: includes/stukram-options.php:996 includes/stukram-options.php:1003
+msgid "Post Pagination."
+msgstr ""
+
+#: includes/stukram-options.php:1002
+msgid "Next Article"
+msgstr ""
+
+#: includes/stukram-options.php:1013
+msgid "Social Options"
+msgstr ""
+
+#: includes/stukram-options.php:1020
+msgid "Facebook "
+msgstr ""
+
+#: includes/stukram-options.php:1021 includes/stukram-options.php:1029
+#: includes/stukram-options.php:1037 includes/stukram-options.php:1045
+#: includes/stukram-options.php:1054 includes/stukram-options.php:1062
+#: includes/stukram-options.php:1070 includes/stukram-options.php:1078
+#: includes/stukram-options.php:1086 includes/stukram-options.php:1095
+#: includes/stukram-options.php:1104 includes/stukram-options.php:1113
+#: includes/stukram-options.php:1122
+msgid "Insert Social URL Here."
+msgstr ""
+
+#: includes/stukram-options.php:1028
+msgid "Twitter "
+msgstr ""
+
+#: includes/stukram-options.php:1036
+msgid "Pinterest "
+msgstr ""
+
+#: includes/stukram-options.php:1044
+msgid "Instagram "
+msgstr ""
+
+#: includes/stukram-options.php:1053
+msgid "Behance "
+msgstr ""
+
+#: includes/stukram-options.php:1061 template-parts/footer/footer-light.php:68
+#: template-parts/header/menu-classic.php:196
+#: template-parts/header/menu-click.php:177
+msgid "Dribbble"
+msgstr ""
+
+#: includes/stukram-options.php:1069
+msgid "Google+ "
+msgstr ""
+
+#: includes/stukram-options.php:1077
+msgid "LinkedIn "
+msgstr ""
+
+#: includes/stukram-options.php:1085
+msgid "YouTube "
+msgstr ""
+
+#: includes/stukram-options.php:1094
+msgid "Vimeo "
+msgstr ""
+
+#: includes/stukram-options.php:1103
+msgid "Slack "
+msgstr ""
+
+#: includes/stukram-options.php:1112
+msgid "GitHub "
+msgstr ""
+
+#: includes/stukram-options.php:1121
+msgid "Tumblr "
+msgstr ""
+
+#: includes/stukram-options.php:1130
+msgid "Add More Social Icons"
+msgstr ""
+
+#: includes/stukram-options.php:1132
+msgid ""
+"Ex: &lt;a class=\"social__item text-white border-light\" target=\"_blank\" "
+"href=\"#\"&gt;&lt;i class=\"fab fa-facebook-f\"&gt;&lt;/i&gt;&lt;/a&gt;"
+"<br>Use <a href=\"https://fontawesome.com/v5/\" target=\"_blank"
+"\">Fontawesome</a> Icon Class"
+msgstr ""
+
+#: includes/stukram-options.php:1138
+msgid "Add More Social Icons (Text)"
+msgstr ""
+
+#: includes/stukram-options.php:1140
+msgid "Ex: &lt;a target=\"_blank\" href=\"#\"&gt;Facebook&lt;/a&gt;"
+msgstr ""
+
+#: includes/stukram-options.php:1148
+msgid "Typography"
+msgstr ""
+
+#: includes/stukram-options.php:1155
+msgid "Body"
+msgstr ""
+
+#: includes/stukram-options.php:1163
+msgid "Specify the Body Text font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1180
+msgid "All The Title Tag Font Properties."
+msgstr ""
+
+#: includes/stukram-options.php:1181
+msgid "Specify the all title tag font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1187
+msgid "h1"
+msgstr ""
+
+#: includes/stukram-options.php:1195
+msgid "Specify the h1 font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1210
+msgid "h2"
+msgstr ""
+
+#: includes/stukram-options.php:1218
+msgid "Specify the h2 font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1233
+msgid "h3"
+msgstr ""
+
+#: includes/stukram-options.php:1241
+msgid "Specify the h3 font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1256
+msgid "h4"
+msgstr ""
+
+#: includes/stukram-options.php:1264
+msgid "Specify the h4 font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1279
+msgid "h5"
+msgstr ""
+
+#: includes/stukram-options.php:1287
+msgid "Specify the h5 font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1302
+msgid "h6"
+msgstr ""
+
+#: includes/stukram-options.php:1310
+msgid "Specify the h6 font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1324
+msgid "Title (XS)"
+msgstr ""
+
+#: includes/stukram-options.php:1332 includes/stukram-options.php:1354
+#: includes/stukram-options.php:1376 includes/stukram-options.php:1398
+#: includes/stukram-options.php:1420 includes/stukram-options.php:1442
+#: includes/stukram-options.php:1464 includes/stukram-options.php:1486
+#: includes/stukram-options.php:1508 includes/stukram-options.php:1530
+#: includes/stukram-options.php:1552
+msgid "Specify the title font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1346
+msgid "Title (SM)"
+msgstr ""
+
+#: includes/stukram-options.php:1368
+msgid "Title (MD)"
+msgstr ""
+
+#: includes/stukram-options.php:1390
+msgid "Title (LG)"
+msgstr ""
+
+#: includes/stukram-options.php:1412
+msgid "Title (XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1434
+msgid "Title (2XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1456
+msgid "Title (3XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1478
+msgid "Title (4XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1500
+msgid "Title (5XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1522
+msgid "Title (6XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1544
+msgid "Section Title"
+msgstr ""
+
+#: includes/stukram-options.php:1566
+msgid "Section Subtitle"
+msgstr ""
+
+#: includes/stukram-options.php:1574
+msgid "Specify the subtitle font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1590
+msgid "Text Font Properties."
+msgstr ""
+
+#: includes/stukram-options.php:1591 includes/stukram-options.php:1604
+#: includes/stukram-options.php:1626 includes/stukram-options.php:1648
+#: includes/stukram-options.php:1670 includes/stukram-options.php:1692
+#: includes/stukram-options.php:1714 includes/stukram-options.php:1736
+#: includes/stukram-options.php:1758 includes/stukram-options.php:1780
+#: includes/stukram-options.php:1802
+msgid "Specify the text font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1596
+msgid "Text Base"
+msgstr ""
+
+#: includes/stukram-options.php:1618
+msgid "Text (XS)"
+msgstr ""
+
+#: includes/stukram-options.php:1640
+msgid "Text (SM)"
+msgstr ""
+
+#: includes/stukram-options.php:1662
+msgid "Text (LG)"
+msgstr ""
+
+#: includes/stukram-options.php:1684
+msgid "Text (XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1706
+msgid "Text (2XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1728
+msgid "Text (3XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1750
+msgid "Text (4XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1772
+msgid "Text (5XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1794
+msgid "Text (6XL)"
+msgstr ""
+
+#: includes/stukram-options.php:1818
+msgid "P Tag Font Properties."
+msgstr ""
+
+#: includes/stukram-options.php:1819
+msgid "Specify the p tag font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1825
+msgid "P"
+msgstr ""
+
+#: includes/stukram-options.php:1833
+msgid "Specify the p font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1849 includes/stukram-options.php:2320
+msgid "Permalink"
+msgstr ""
+
+#: includes/stukram-options.php:1855 includes/stukram-options.php:2326
+msgid "Link URL"
+msgstr ""
+
+#: includes/stukram-options.php:1860 includes/stukram-options.php:1896
+#: includes/stukram-options.php:2189 includes/stukram-options.php:2331
+#: includes/stukram-options.php:2367 includes/stukram-options.php:2385
+msgid "Specify the permalink link url font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1873 includes/stukram-options.php:2344
+msgid "Link URL Hover"
+msgstr ""
+
+#: includes/stukram-options.php:1878 includes/stukram-options.php:1914
+#: includes/stukram-options.php:2207 includes/stukram-options.php:2349
+#: includes/stukram-options.php:2411 includes/stukram-options.php:2429
+#: includes/stukram-options.php:2447 includes/stukram-options.php:2473
+#: includes/stukram-options.php:2491 includes/stukram-options.php:2509
+#: includes/stukram-options.php:2536 includes/stukram-options.php:2554
+#: includes/stukram-options.php:2572 includes/stukram-options.php:2590
+#: includes/stukram-options.php:2608 includes/stukram-options.php:2626
+#: includes/stukram-options.php:2644 includes/stukram-options.php:2662
+#: includes/stukram-options.php:2680 includes/stukram-options.php:2761
+#: includes/stukram-options.php:2779 includes/stukram-options.php:2797
+#: includes/stukram-options.php:2815 includes/stukram-options.php:2833
+#: includes/stukram-options.php:2851
+msgid "Specify the permalink font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1891
+msgid "Button Link URL"
+msgstr ""
+
+#: includes/stukram-options.php:1909
+msgid "Button Link URL Hover"
+msgstr ""
+
+#: includes/stukram-options.php:1927
+msgid "Button Black"
+msgstr ""
+
+#: includes/stukram-options.php:1935 includes/stukram-options.php:1957
+#: includes/stukram-options.php:1979 includes/stukram-options.php:2001
+#: includes/stukram-options.php:2023 includes/stukram-options.php:2045
+#: includes/stukram-options.php:2067 includes/stukram-options.php:2089
+msgid "Specify the button font properties."
+msgstr ""
+
+#: includes/stukram-options.php:1949
+msgid "Button Black Hover"
+msgstr ""
+
+#: includes/stukram-options.php:1971
+msgid "Button White"
+msgstr ""
+
+#: includes/stukram-options.php:1993
+msgid "Button White Hover"
+msgstr ""
+
+#: includes/stukram-options.php:2015
+msgid "Button Outline Black"
+msgstr ""
+
+#: includes/stukram-options.php:2037
+msgid "Button Outline Black Hover"
+msgstr ""
+
+#: includes/stukram-options.php:2059
+msgid "Button Outline White"
+msgstr ""
+
+#: includes/stukram-options.php:2081
+msgid "Button Outline White Hover"
+msgstr ""
+
+#: includes/stukram-options.php:2106
+msgid "Page"
+msgstr ""
+
+#: includes/stukram-options.php:2112
+msgid "Page Breadcrumbs"
+msgstr ""
+
+#: includes/stukram-options.php:2117
+msgid "Specify the page breadcrumbs font properties."
+msgstr ""
+
+#: includes/stukram-options.php:2130
+msgid "Content"
+msgstr ""
+
+#: includes/stukram-options.php:2135
+msgid "Specify the page content text font properties."
+msgstr ""
+
+#: includes/stukram-options.php:2148
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: includes/stukram-options.php:2153 includes/stukram-options.php:2171
+msgid "Specify the page section title font properties."
+msgstr ""
+
+#: includes/stukram-options.php:2166
+msgid "Sidebar Widget Content"
+msgstr ""
+
+#: includes/stukram-options.php:2184
+msgid "Sidebar Link URL"
+msgstr ""
+
+#: includes/stukram-options.php:2202
+msgid "Sidebar Link URL Hover"
+msgstr ""
+
+#: includes/stukram-options.php:2222
+msgid "Post"
+msgstr ""
+
+#: includes/stukram-options.php:2228
+msgid "Blog Page Title"
+msgstr ""
+
+#: includes/stukram-options.php:2233 includes/stukram-options.php:2251
+#: includes/stukram-options.php:2269
+msgid "Specify the blog post title font properties."
+msgstr ""
+
+#: includes/stukram-options.php:2246
+msgid "Blog Page Title Hover"
+msgstr ""
+
+#: includes/stukram-options.php:2264
+msgid "Post Page Title"
+msgstr ""
+
+#: includes/stukram-options.php:2282
+msgid "Post Content"
+msgstr ""
+
+#: includes/stukram-options.php:2287 includes/stukram-options.php:2305
+msgid "Specify the blog post content font properties."
+msgstr ""
+
+#: includes/stukram-options.php:2362
+msgid "Read More (Button)"
+msgstr ""
+
+#: includes/stukram-options.php:2380
+msgid "Read More (Button) Hover"
+msgstr ""
+
+#: includes/stukram-options.php:2400
+msgid "Navigation Menu (Click)"
+msgstr ""
+
+#: includes/stukram-options.php:2406 includes/stukram-options.php:2442
+#: includes/stukram-options.php:2468 includes/stukram-options.php:2504
+msgid "Menu Item"
+msgstr ""
+
+#: includes/stukram-options.php:2424 includes/stukram-options.php:2486
+msgid "Sub Menu Item"
+msgstr ""
+
+#: includes/stukram-options.php:2462
+msgid "Navigation Menu (Classic)"
+msgstr ""
+
+#: includes/stukram-options.php:2525
+msgid "Intro Slider"
+msgstr ""
+
+#: includes/stukram-options.php:2531
+msgid "Intro Slider Title"
+msgstr ""
+
+#: includes/stukram-options.php:2549
+msgid "Intro Slider Subtitle"
+msgstr ""
+
+#: includes/stukram-options.php:2567
+msgid "Intro Slideshow Title"
+msgstr ""
+
+#: includes/stukram-options.php:2585
+msgid "Intro Slideshow Subtitle"
+msgstr ""
+
+#: includes/stukram-options.php:2603
+msgid "Intro Static Title"
+msgstr ""
+
+#: includes/stukram-options.php:2621
+msgid "Intro Static Content"
+msgstr ""
+
+#: includes/stukram-options.php:2639
+msgid "Intro Personal Title"
+msgstr ""
+
+#: includes/stukram-options.php:2657
+msgid "Intro Personal Subtitle"
+msgstr ""
+
+#: includes/stukram-options.php:2675
+msgid "Intro Personal Content"
+msgstr ""
+
+#: includes/stukram-options.php:2696
+msgid "Contact form font properties."
+msgstr ""
+
+#: includes/stukram-options.php:2697
+msgid "Specify the Contact form font properties."
+msgstr ""
+
+#: includes/stukram-options.php:2702
+msgid "Contact Form Placeholder"
+msgstr ""
+
+#: includes/stukram-options.php:2725
+msgid "Label"
+msgstr ""
+
+#: includes/stukram-options.php:2750
+msgid "Copyright"
+msgstr ""
+
+#: includes/stukram-options.php:2756
+msgid "Footer Copyright (Type 1)"
+msgstr ""
+
+#: includes/stukram-options.php:2774
+msgid "Footer Copyright (Type 2)"
+msgstr ""
+
+#: includes/stukram-options.php:2792
+msgid "Footer Title (Type 1)"
+msgstr ""
+
+#: includes/stukram-options.php:2810
+msgid "Footer Title (Type 2)"
+msgstr ""
+
+#: includes/stukram-options.php:2828
+msgid "Footer Text (Type 1)"
+msgstr ""
+
+#: includes/stukram-options.php:2846
+msgid "Footer Text (Type 2)"
+msgstr ""
+
+#: includes/stukram-options.php:2867
+msgid "Styling"
+msgstr ""
+
+#: includes/stukram-options.php:2873
+msgid "Theme Color Option"
+msgstr ""
+
+#: includes/stukram-options.php:2874
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: includes/stukram-options.php:2875
+msgid "Change all global color."
+msgstr ""
+
+#: includes/stukram-options.php:2890
+msgid "Footer Settings"
+msgstr ""
+
+#: includes/stukram-options.php:2897
+msgid "Page Footer Section."
+msgstr ""
+
+#: includes/stukram-options.php:2904
+msgid "Footer Background Image"
+msgstr ""
+
+#: includes/stukram-options.php:2905 includes/stukram-options.php:3105
+#: includes/stukram-options.php:3143 includes/stukram-options.php:3161
+msgid "(Optional)"
+msgstr ""
+
+#: includes/stukram-options.php:2911
+msgid "Footer Style Type"
+msgstr ""
+
+#: includes/stukram-options.php:2915
+msgid "Style 1"
+msgstr ""
+
+#: includes/stukram-options.php:2916
+msgid "Style 2"
+msgstr ""
+
+#: includes/stukram-options.php:2923
+msgid "Footer BG Color Scheme"
+msgstr ""
+
+#: includes/stukram-options.php:2935
+msgid "Footer Text Color Scheme"
+msgstr ""
+
+#: includes/stukram-options.php:2947
+msgid "Footer Shapes"
+msgstr ""
+
+#: includes/stukram-options.php:2961
+msgid "Footer Content Options"
+msgstr ""
+
+#: includes/stukram-options.php:2968
+msgid "Footer Content"
+msgstr ""
+
+#: includes/stukram-options.php:2984
+msgid "Footer Logo Options"
+msgstr ""
+
+#: includes/stukram-options.php:2992
+msgid "Footer Logo"
+msgstr ""
+
+#: includes/stukram-options.php:3028
+msgid "Upload Footer Logo"
+msgstr ""
+
+#: includes/stukram-options.php:3051
+msgid "Footer Contact Options"
+msgstr ""
+
+#: includes/stukram-options.php:3058
+msgid "Footer Contact"
+msgstr ""
+
+#: includes/stukram-options.php:3073
+msgid "Ex:  Studio "
+msgstr ""
+
+#: includes/stukram-options.php:3080
+msgid "Title 2"
+msgstr ""
+
+#: includes/stukram-options.php:3081
+msgid "Ex:  Let’s get in touch "
+msgstr ""
+
+#: includes/stukram-options.php:3170
+msgid "Footer Nav Menu Options"
+msgstr ""
+
+#: includes/stukram-options.php:3171
+msgid "Add a nav menu for footer section from menu option."
+msgstr ""
+
+#: includes/stukram-options.php:3178
+msgid "Footer Nav Menu Text"
+msgstr ""
+
+#: includes/stukram-options.php:3179
+msgid "Ex: Links"
+msgstr ""
+
+#: includes/stukram-options.php:3187
+msgid "Footer Social Icon Options"
+msgstr ""
+
+#: includes/stukram-options.php:3194
+msgid "Footer Social Icon"
+msgstr ""
+
+#: includes/stukram-options.php:3208
+msgid "Footer Social Icon Text"
+msgstr ""
+
+#: includes/stukram-options.php:3209
+msgid "Ex: Follow Us"
+msgstr ""
+
+#: includes/stukram-options.php:3217
+msgid "Footer Copyright Text Options"
+msgstr ""
+
+#: includes/stukram-options.php:3218
+msgid "Copyright text of your webSite."
+msgstr ""
+
+#: includes/stukram-options.php:3227
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/stukram-options.php:3228
+msgid "Insert copyright text here."
+msgstr ""
+
+#: includes/stukram-options.php:3241
+msgid "To Top Button Option"
+msgstr ""
+
+#: includes/stukram-options.php:3242
+msgid "Enable/Disable to top button."
+msgstr ""
+
+#: includes/stukram-options.php:3249
+msgid "To Top Button"
+msgstr ""
+
+#: includes/stukram-options.php:3265
+msgid "Documentation"
+msgstr ""
+
+#: includes/stukram-options.php:3273
+msgid "Stukram Theme Documentation"
+msgstr ""
+
+#: includes/stukram-options.php:3274
+msgid ""
+"<a href=\"http://webredox.net/demo/wp/stukram/doc/documentation.html\" "
+"target=\"_blank\">Click Here</a> To get the theme documentation."
+msgstr ""
+
+#: includes/stukram-options.php:3386
+msgid "Section via hook"
+msgstr ""
+
+#: includes/stukram-options.php:3387
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: includes/style.php:20
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/ini/stukram-base.php:92
+msgid "Valid"
+msgstr ""
+
+#: includes/ini/stukram-base.php:94
+msgid "Invalid"
+msgstr ""
+
+#: includes/ini/stukram-base.php:101
+msgid "License Type"
+msgstr ""
+
+#: includes/ini/stukram-base.php:107
+msgid "Your License Key"
+msgstr ""
+
+#: includes/ini/stukram-base.php:163
+msgid ""
+"Enter your item purchase code here, to activate the product, and get full "
+"feature updates and premium support."
+msgstr ""
+
+#: includes/ini/stukram-base.php:183
+msgid "Purchase code"
+msgstr ""
+
+#: includes/ini/stukram-base.php:187
+msgid "Email Address"
+msgstr ""
+
+#: includes/ini/stukram-base.php:192
+msgid ""
+"We will send update news of this product by this email address, don't worry, "
+"we hate spam"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:48
+#: template-parts/header/menu-classic.php:176
+#: template-parts/header/menu-click.php:157
+msgid "Facebook"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:52
+#: template-parts/header/menu-classic.php:180
+#: template-parts/header/menu-click.php:161
+msgid "Twitter"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:56
+#: template-parts/header/menu-classic.php:184
+#: template-parts/header/menu-click.php:165
+msgid "Pinterest"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:60
+#: template-parts/header/menu-classic.php:188
+#: template-parts/header/menu-click.php:169
+msgid "Instagram"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:64
+#: template-parts/header/menu-classic.php:192
+#: template-parts/header/menu-click.php:173
+msgid "LinkedIn"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:72
+#: template-parts/header/menu-classic.php:200
+#: template-parts/header/menu-click.php:181
+msgid "Behance"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:76
+#: template-parts/header/menu-classic.php:204
+#: template-parts/header/menu-click.php:185
+msgid "Google+"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:80
+#: template-parts/header/menu-classic.php:208
+#: template-parts/header/menu-click.php:189
+msgid "YouTube"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:84
+#: template-parts/header/menu-classic.php:212
+#: template-parts/header/menu-click.php:193
+msgid "Vimeo"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:88
+#: template-parts/header/menu-classic.php:216
+#: template-parts/header/menu-click.php:197
+msgid "Slack"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:92
+#: template-parts/header/menu-classic.php:220
+#: template-parts/header/menu-click.php:201
+msgid "Tumblr"
+msgstr ""
+
+#: template-parts/footer/footer-light.php:96
+#: template-parts/header/menu-classic.php:224
+#: template-parts/header/menu-click.php:205
+msgid "GitHub"
+msgstr ""
+
+#: template-parts/header/post_masthead.php:22
+msgid "Category "
+msgstr ""
+
+#: template-parts/header/post_masthead.php:28
+msgid "Tag "
+msgstr ""
+
+#: template-parts/header/post_masthead.php:34
+msgid "Archive "
+msgstr ""
+
+#: template-parts/header/post_masthead.php:40
+#: template-parts/header/post_masthead.php:71
+msgid "Our Blog"
+msgstr ""
+
+#: template-parts/header/post_masthead.php:53
+msgid "Category"
+msgstr ""
+
+#: template-parts/header/post_masthead.php:59
+msgid "Tag"
+msgstr ""
+
+#: template-parts/header/post_masthead.php:65
+msgid "Archive"
+msgstr ""

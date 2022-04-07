@@ -1,0 +1,34 @@
+
+---Downloaded files---
+The import files for: Ligh Version Demo were successfully downloaded!
+Initial max execution time = 90
+Files info:
+Site URL = https://webredox.net/demo/wp/stukram/dark
+Data file = /home/webred5/public_html/demo/wp/stukram/dark/wp-content/themes/stukram/includes/stukram-demo/light/demo-content.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+stukram -> /home/webred5/public_html/demo/wp/stukram/dark/wp-content/themes/stukram/includes/stukram-demo/light/redux.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing Redux settings---
+Redux settings import for: stukram finished successfully!
+
+---ocdi/after_import---
+

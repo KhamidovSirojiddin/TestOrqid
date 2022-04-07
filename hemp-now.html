@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+   <title>HempNow | Orqid.</title>
+   <meta name="description" content="HempNow is a marketplace for Hemp. We performed the design and development of this website."/>
+   <meta name="keywords" content="hemp now, web development, development company, web, development, company, web design, design"/>
+
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="fonts/style.css">
+
+  <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W9ECNWD362"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W9ECNWD362');
+</script>
+
+</head>
+
+<body data-barba="wrapper">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <!-- <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+    </div> -->
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="">
+
+
+      <!-- header start -->
+      <header class="header -dark -sticky-light js-header-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="/">
+              <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.svg 1x, img/logo/logo-light-x2.svg 2x" data-src="img/logo/logo-light.svg">
+            </a>
+            <a data-barba href="/">
+              <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.svg 1x, img/logo/logo-dark-x2.svg 2x" data-src="img/logo/logo-dark.svg">
+            </a>
+          </div>
+
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="88" viewBox="0 0 127 92">
+                  <image width="107" height="88" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAABcCAYAAABHhWqLAAABx0lEQVR4nO3cMW4TYRgG4Vm3wHGgp09yFqhJiVt8mFAnPeY0GMo1FDEkUhqEFv/azDzS9p800mq1xTvN85GTS+A98Bp4SZ6b78Ae+AR8BphO8T8CH8bdlTPbAtfTPB8vgJvR1+TsrqZ5Pt4Cb0dfkrO7m+b5+A14NfqSnN1hM/qCDDNtgK+jr8gQ+w2wG31FhthtuP/S346+JGe1BW6mRz95roB3wBvgxair8t/8AL5w/6a/gYefPBHqa1+s+GLFFyu+WPHFii9WfLHiixVfrPhixRcrvljxxYovVnyx4osVX6z4YsUXK75Y8cWKL1Z8seKLFV+s+GLFFyu+WPHFii/2OP4lcAscgJ89z+45nPpe/A7eCKNTI4xyjTCKNcIo1gijWCOMYo0wijXCKNUIo0wjjHnQ175Y8cWKL1Z8seKLFV+s+GLFFyu+WPHFii9WfLHiixVfrPhixRcrvljxxYovVnyx4osVX6z4YsUXK75Y8cWKL1Z8seKLFV9sjfEbi1x4hHEtGotcxp8RxtGH/K3GIpd1tab4jUUu625N8RuLXFYjjGLTmuI3Frms/ZriNxa5rN2a4jcWuZwnI4xr0Vjkv3kywvgL2bUxxVxBTysAAAAASUVORK5CYII="/>
+                </svg>
+              <!--<i class="icon" data-feather="menu"></i>-->
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+       <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="/">
+                          Home
+                        </a>
+                      </li>
+                         <li>
+                        <a data-barba href="about.html">
+                          Us
+                        </a>
+                      </li>
+                         <li>
+                        <a data-barba href="services.html">
+                          Services
+                        </a>
+                      </li>
+                      <li>
+                        <a data-barba href="portfolio.html">
+                          Work
+                        </a>
+                      </li>
+                                            <li>
+                        <a data-barba href="https://insights.orqid.sooperior.com">
+                          Blog
+                        </a>
+                      </li>
+                       <li>
+                        <a data-barba href="contact.html" target="_blank">
+                          Contact
+                        </a>
+                      </li>
+                        </ul>
+
+                  </div>
+                </div>
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-700">
+                        LOCATION
+                      </h5>
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          Orqid Inc. <br/>
+                          3160 Wildwood Dr.<br/>
+                          Windsor, Ontario, Canada <br/>
+                          N8R 2K8
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-700">
+                        SOCIAL MEDIA
+                      </h5>
+                      <div class="nav__info__content text-lg text-white mt-16">
+                         <a target="_blank" rel="noopener" href="https://www.facebook.com/orqiddesigners">Facebook</a>
+                        <a target="_blank" rel="noopener" href="https://twitter.com/orqiddesign">Twitter</a>
+                      </div>
+                    </div>
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-700">
+                        CONTACT US
+                      </h5>
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="mailto:info@orqid.io">info@orqid.io</a>
+                        <p>+1-519-818-0690</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+      
+
+
+      <!-- page header start -->
+      <section class="masthead -type-work-1 bg-black sm:text-center js-masthead-type-work-1 js-bg">
+        <div data-parallax="0.7" class="masthead__bg overlay-light-md js-image">
+          <div data-parallax-target class="bg-image js-lazy js-bg-item" data-bg="img/projects/horizontal/hn-main-2.png"></div>
+        </div>
+
+        <div class="masthead__content">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-xl-10 col-sm-10 z-3">
+                <div data-split="lines">
+                  <p class="masthead__subtitle text-sm sm:text-sm mb-24 sm:mb-20 js-subtitle text-white">
+                    WEBSITE DEVELOPMENT
+                  </p>
+                </div>
+
+                <div data-split="lines">
+                  <h1 class="masthead__title fw-700 js-title text-white">
+                    HempNow
+                  </h1>
+                </div>
+
+                <div class="masthead__info__wrap">
+                  <div class="row y-gap-32">
+
+                    <div class="col-lg-auto  col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-sm leading-sm fw-600 text-white">ROLE</h5>
+                          <p class="text-lg leading-sm mt-12 sm:mt-8 text-white">Design & Development</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-auto offset-lg-1 col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-sm leading-sm fw-600 text-white">START</h5>
+                          <p class="text-lg leading-sm mt-12 sm:mt-8 text-white">22 Nov 2018</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-auto offset-lg-1 col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-sm leading-sm fw-600 text-white">LAUNCH</h5>
+                          <p class="text-lg leading-sm mt-12 sm:mt-8 text-white">15 May 2019</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-auto offset-lg-1 col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-sm leading-sm fw-600 text-white">WEBSITE</h5>
+                          <a target="_blank" rel="noopener" href="https://hempnow.com" class="button d-block fw-500 text-lg leading-sm mt-12 sm:mt-8 text-white">
+                            Hempnow.com
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- page header end -->
+      
+        <!-- comment section start(discovery) -->
+      <section class="layout-pt-lg layout-pb-md">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-center text-left">
+            <div class="col-xl-8 col-lg-10">
+              <div class="d-flex justify-content-center text-xs tracking-md">
+                <p class="sectionHeading__subtitle">Discovery</p>
+              </div>
+          <p class="text-3xl md:text-2xl leading-lg text-black mt-8 text-center">
+                The future of Hemp is now.
+              </p>
+
+          <p class="text-lg leading-xl fw-500 mt-20">
+Our client contacted us in 2018 about putting together a marketplace for hemp. This was a client we have worked on previous projects for in the past. He saw an opportunity with hemp, as it was just legalized by the federal government and its benefits were limitless. One of our first steps was exploring different ideas for the site and any barriers we might encounter.                </p>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+      
+             <!-- discovery images -->
+      <div class="layout-pb-lg">
+         <!--container start -->
+        <div class="container">
+          <div class="fancy-grid -col-2">
+
+            <div class="fancy-grid__item">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-discovery-40.png"></div>
+                </div>
+            </div>
+            
+                        <div class="fancy-grid__item">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-discovery-41.png"></div>
+                </div>
+            </div>
+            
+
+          </div>
+        </div>
+       <!--container end -->
+      </div>
+      <!-- section end --> 
+      
+      
+      
+             <!-- comment(process) section -->
+      <section class="layout-pb-md">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-center text-left">
+            <div class="col-xl-8 col-lg-10">
+              <div class="d-flex justify-content-center text-xs tracking-md">
+                <p class="sectionHeading__subtitle">Process</p>
+              </div>
+          <p class="text-3xl md:text-2xl leading-lg text-black mt-8 text-center">
+               One of the challenges was narrowing down all the different uses of hemp.
+              </p>
+
+          <p class="text-lg leading-xl fw-500 mt-20">
+Hemp is in so many products that we had to narrow down what categories we would display on the site. We wanted the look and feel to use some variations of blues and greens as it would be representative of the site. The site would have a clean look and feel, so companies and users could navigate with minimal effort.              </p>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+<!-- process images -->
+      <div class="layout-pb-xl">
+         <!--container start -->
+        <div class="container">
+          <div class="fancy-grid -col-2">
+
+            <div class="fancy-grid__item">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-process-1.png"></div>
+                </div>
+            </div>
+            
+                        <div class="fancy-grid__item">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-process-2.png"></div>
+                </div>
+            </div>
+            
+
+          </div>
+        </div>
+       <!--container end -->
+      </div>
+      <!-- section end --> 
+      
+      
+    <!-- quote #1 -->
+      <section class="layout-pt-lg layout-pb-lg bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-center text-left">
+            <div class="col-xl-8 col-lg-10">
+              <div class="d-flex justify-content-center text-xs tracking-md">
+                <p class="sectionHeading__subtitle">Thoughts</p>
+              </div>
+          <p class="text-3xl md:text-2xl leading-lg text-white mt-8 text-center">
+                Working with Orqid was a pleasurable experience. From the very beginning, all the way through each step of the process, we were able to see our vision come together, piece by piece, until we had a full realization of our website. 
+              </p>
+
+          <p class="text-lg leading-xl fw-500 mt-20 text-light text-center">
+                Matt W.
+              </p>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+      
+      
+    <!-- actualization section -->
+      <section class="layout-pt-lg">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-center text-left">
+            <div class="col-xl-8 col-lg-10">
+              <div class="d-flex justify-content-center text-xs tracking-md">
+                <p class="sectionHeading__subtitle">Actualization</p>
+              </div>
+          <p class="text-3xl md:text-2xl leading-lg text-black mt-8 text-center">
+               Since this was a marketplace, companies and users would have completely separate user experiences.
+              </p>
+
+          <p class="text-lg leading-xl fw-500 mt-20">
+Once we were finished with our wireframes, we moved forward with the development of the site. We built the site in PHP/MySQL and used Laravel to setup the framework. The Mapbox API, was used to populate precise real time location data for all of our companies that would be displayed on a map. The frontend was designed responsively for all screen sizes.              </p>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+      
+
+      <!-- actualization slides -->
+      
+      <section class="layout-pt-sm layout-pb-lg">
+      <div>
+        <div class="js-section-slider" data-slider-col="base-2 lg-2 md-1 sm-1" data-gap="40" data-loop data-center data-pagination>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-1.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-1.png"></div></a>
+            </div>
+        
+                        <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-5.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-5.png"></div></a>
+            </div>
+            
+                                   <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-4.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-4.png"></div></a>
+            </div>
+            
+                        <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-6.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-6.png"></div></a>
+            </div>
+            
+                        <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-7.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-7.png"></div></a>
+            </div>
+            
+                        <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-9.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-9.png"></div></a>
+            </div>
+            
+            <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-2.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-2.png"></div></a>
+            </div>
+            
+                        <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-3.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-3.png"></div></a>
+            </div>
+            
+                        
+                        <div class="swiper-slide slider-slide">
+                 <a data-gallery="gallery1" class="glightbox" href="img/hemp-now/hn-zoom-8.jpg">
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/hemp-now/hn-slide-8.png"></div></a>
+            </div>
+          </div>
+          <div class="pagination -dark pb-4 mt-48 js-pagination"></div>
+        </div>
+      </div>
+      </section>
+      <!-- section end -->
+
+
+<!-- quote #2 -->
+      <section class="layout-pb-sm">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-center text-center">
+            <div class="col-xl-8 col-lg-10">
+              <div class="d-flex justify-content-center text-xs tracking-md">
+                <p class="sectionHeading__subtitle">Conclusion</p>
+              </div>
+          <p class="text-3xl md:text-2xl leading-lg text-black mt-8 text-center">
+               And in the end, we ended up with a clean, innovative website for the hemp industry.
+              </p>
+
+          <p class="text-lg leading-xl fw-500 mt-20 text-left">
+Once the site was complete, the next step was bringing companies on board to add their products. Initial feedback was excitement as we were one of the first to introduce a website where hemp companies could post their products.               </p>
+
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+     
+      
+   <!-- numbers -->
+      <section class="layout-pb-md">
+        <!-- container start -->
+        <div class="container">
+              <!-- row start -->
+              <div class="row x-gap-40 y-gap-60 justify-content-center text-center">
+
+                <div class="col-lg-3 col-6 ">
+                  <div data-anim="counter" data-counter="340" class="counter">
+                    <h2 class="number -md -left fw-500 js-counter-num">
+                      340
+                    </h2>
+                    <p class="text-lg fw-400 tracking-none mt-20">
+                      Development Hours
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6">
+                  <div data-anim="counter" data-counter="150" class="counter">
+                    <h2 class="number -md -left fw-500 js-counter-num">
+                      150
+                    </h2>
+                    <p class="text-lg fw-500 tracking-none mt-20">
+                      Design Hours
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6">
+                  <div data-anim="counter" data-counter="310" class="counter">
+                    <h2 class="number -md -left fw-500 js-counter-num">
+                      310
+                    </h2>
+                    <p class="text-lg fw-500 tracking-none mt-20">
+                      Coffees
+                    </h5>
+                  </div>
+                </div>
+
+              </div>
+              <!-- row end -->
+            </div>
+          <!-- row end -->
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+      
+      
+      <!-- conclusion images -->
+      <div class="layout-pb-md">
+         <!--container start -->
+        <div class="container">
+          <div class="fancy-grid -col-2">
+
+            <div class="fancy-grid__item">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-actual-8.jpg"></div>
+                </div>
+            </div>
+                        <div class="fancy-grid__item">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-actual-2.jpg"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+       <!--container end -->
+      </div>
+      <!-- section end --> 
+      
+      
+
+
+ <!-- about businessfriend -->
+      <section class="layout-pt-lg layout-pb-md bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+            <div class="col-xl-7 col-lg-8">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="sectionHeading__subtitle text-light">About HempNow</p>
+              </div>
+          <p class="text-3xl md:text-2xl leading-lg text-white mt-8">
+Over the past ten years, there has been a growing trend towards hemp products and the hemp industry as a whole.          </p>
+              
+                        <p class="text-lg leading-xl fw-500 mt-20 text-light">
+The benefits of hemp are endless; the fibers from hemp are used for a variety of purposes, including food, medicine, beauty products, automotive, industrial, office products, gardening, farming, and much more.              </p>
+             <p class="text-lg leading-xl fw-500 mt-20 text-light">
+Founded in 2018, HempNow is a progressive technology company with the dual objective of finding the best hemp products for consumers and providing a state of the art platform for companies to market and showcase their products.       </p>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+      
+<!-- about images -->
+      <div class="layout-pb-lg bg-dark-1">
+         <!--container start -->
+        <div class="container">
+          <div class="fancy-grid -col-2">
+
+            <div class="fancy-grid__item">
+              <a data-gallery="gallery1" class="glightbox" href="img/project2/long-1.jpg">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-about-3.jpg"></div>
+                </div>
+              </a>
+            </div>
+            
+                        <div class="fancy-grid__item">
+              <a data-gallery="gallery1" class="glightbox" href="img/project2/long-1.jpg">
+                <div data-parallax="0.9" class="ratio ratio-1:1">
+                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/hemp-now/hn-about-1.jpg"></div>
+                </div>
+              </a>
+            </div>
+            
+
+          </div>
+        </div>
+       <!--container end -->
+      </div>
+      <!-- section end --> 
+
+      <!-- other projects start -->
+      <section class="projects-nav">
+        <!-- row start -->
+        <div class="row no-gutters">
+
+          <div class="col-lg-6">
+            <a data-barba href="ufc.html" class="projects-nav__item -prev bg-dark-1">
+              <div class="projects-nav__img">
+                <div class="bg-image js-lazy" data-bg="img/projects/horizontal/ufc-106.jpg"></div>
+              </div>
+
+              <div class="projects-nav__content">
+                <div class="projects-nav__icon">
+                  <i class="size-xl str-width-xs text-white" data-feather="arrow-left-circle"></i>
+                </div>
+
+                <h3 class="text-4xl fw-400 tracking-none text-white">
+                  UFC
+                </h3>
+
+                <p class="projects-nav__text -prev text-sm fw-500 text-white tracking-md uppercase">
+                  PREV
+                </p>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="col-lg-6">
+            <a data-barba href="avon-grove.html" class="projects-nav__item -next bg-dark-1">
+              <div class="projects-nav__img">
+                <div class="bg-image js-lazy" data-bg="img/projects/horizontal/ag-200.jpg"></div>
+              </div>
+
+              <div class="projects-nav__content">
+                <h3 class="text-4xl fw-400 tracking-none text-white">
+                  Avon Grove
+                </h3>
+
+                <div class="projects-nav__icon">
+                  <i class="size-xl str-width-xs text-white" data-feather="arrow-right-circle"></i>
+                </div>
+
+                <p class="projects-nav__text -next text-sm fw-500 text-white tracking-md uppercase">
+                  NEXT
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <!-- row end -->
+      </section>
+      <!-- section end -->
+
+
+      
+             <!-- subfooter start -->
+      <section class="layout-pt-xl layout-pb-md bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <p class="text-base text-light">
+                Do you need help with your project?
+              </p>
+
+              <h2 class="text-6xl sm:text-5xl xs:text-4xl fw-700 mt-20 text-white">
+                We would love to hear all the details. 
+              </h2>
+              <a href="/contact.html" class="button -md -white text-white mt-40 md:mt-32">
+                get in touch
+              </a>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+
+    <!-- footer start -->
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+            <a href="/">
+              <img class="footer__logo__light js-lazy" data-srcset="img/logo/logo-light.svg 1x, img/logo/logo-light-x2.svg 2x" data-src="img/logo/logo-light.svg" alt="Logo">
+            </a>
+              </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                  <h4 class="text-xl fw-700 text-white">
+                    Studio
+                  </h4>
+                  <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                    <p>Orqid Inc.<br>
+                    3160 Wildwood Dr.<br>
+                    Windsor, Ontario <br>
+                    N8R 2K8</p>
+                   <p class="mt-8"><a href="mailto:info@orqid.io">info@orqid.io</a></p>
+                    <p class="mt-8">+1-519-818-0690</p>
+                  </div>
+                </div>
+                 <div class="col-lg-auto col-sm-6 col-xs-6">
+                  <h4 class="text-xl fw-700 text-white">
+                    Links
+                  </h4>
+                 <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                    <div><a data-barba href="services.html" class="button -underline">Services</a></div>
+                    <div><a data-barba href="about.html" class="button -underline mt-4">Us</a></div>
+                    <div><a data-barba href="portfolio.html" class="button -underline mt-4">Work</a></div>
+                     <div><a data-barba href="https://insights.orqid.sooperior.com" class="button -underline mt-4">Blog</a></div>
+                    <div><a data-barba href="contact.html#loaded" class="button -underline mt-4">Contact</a></div>
+                    <div><a data-barba href="terms.html" class="button -underline mt-4">Terms</a></div>
+                  </div>
+                </div>
+                <div class="col-lg-auto col-auto">
+                  <h4 class="text-xl fw-700 text-white">
+                    Follow us
+                  </h4>
+                  <div class="social -bordered mt-16 sm:mt-12">
+                 <a class="social__item text-white border-light" target="_blank" rel="noopener" href="https://www.facebook.com/orqiddesigners">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="social__item text-white border-light" target="_blank" rel="noopener" href="https://twitter.com/orqiddesign">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- row end -->
+          </div>
+            <div class="footer__bottom -light">
+              <!-- row start -->
+              <div class="row">
+                <div class="col">
+                  <div class="footer__copyright">
+                    <p class="text-light">
+                      @ 2022 Orqid Design. All rights reserved.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- row end -->
+            </div>
+          </div>
+          <!-- container end -->
+          </div>
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
