@@ -951,26 +951,26 @@ const PageReveal = (function() {
         duration: 1.0,
         ease: 'quart.out',
         y: '0%',
-      }, '>-0.3')
+      }, '0.3')
       .to(title, {
         stagger: 0.1,
         duration: 1.0,
         ease: 'quart.out',
         y: '0%',
-      }, '>-0.8')
+      }, '0.3')
       .to(text, {
         stagger: 0.1,
         duration: 1.0,
         ease: 'quart.out',
         y: '0%',
-      }, '>-0.8')
+      }, '0.3')
       .to(button, {
         ease: 'quart.out',
         duration: 1,
         y: '0%',
-      }, '>-0.8')
+      }, '0.3')
 
-      .uiElementsAnimate(null, '>-0.8')
+      .uiElementsAnimate(null, '0.8')
 
   }
 
